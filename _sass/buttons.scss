@@ -1,0 +1,134 @@
+/////////////////////////
+// PRIMARY BUTTON
+/////////////////////////
+
+.jibe-primary-default-button {
+  background-color: #1C7DF2;
+  border-color: #1C7DF2;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.jibe-primary-default-button:hover {
+  color: white;
+}
+
+.jibe-primary-active-button {
+  background-color: #2b79ab;
+  border-color: #2b79ab;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.jibe-primary-active-button:hover {
+  color: white;
+}
+
+.jibe-primary-hover-button {
+  background-color: #419cd7;
+  border-color: #419cd7;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.jibe-primary-hover-button:hover {
+  color: white;
+}
+
+/////////////////////////
+// SECONDARY BUTTON
+/////////////////////////
+
+.jibe-secondary-default-button {
+  background-color: #00ADD8;
+  border-color: #00ADD8;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.jibe-secondary-default-button:hover {
+  color: white;
+}
+
+.jibe-secondary-active-button {
+  background-color: #0296BB;
+  border-color: #0296BB;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.jibe-secondary-active-button:hover {
+  color: white;
+}
+
+.jibe-secondary-hover-button {
+  background-color: #419cd7;
+  border-color: #419cd7;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+.jibe-secondary-hover-button:hover {
+  color: white;
+}
+
+/////////////////////////
+// FOCUS BUTTON
+/////////////////////////
+
+.jibe-buttons:focus {
+  box-shadow: 0 0 3px #000000, 0 0 7px #000000;
+  color: white;
+}
+
+/////////////////////////
+// DISABLE BUTTON
+/////////////////////////
+
+.jibe-disable-button {
+  background-color: #d6d7d9;
+  border-color: #d6d7d9;
+  color: #ABAAAA;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+/////////////////////////
+// NEXT BUTTON
+/////////////////////////
+
+.jibe-next-button {
+  background-color: #1C7DF2;
+  border-color: #1C7DF2;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+  height: 50px;
+  width: 120px;
+}
+
+.jibe-next-button:hover {
+  color: white;
+}
+
+/////////////////////////
+// PREVIOUS BUTTON
+/////////////////////////
+
+.jibe-previous-button {
+  background-color: #00ADD8;
+  border-color: #00ADD8;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1em;
+  height: 50px;
+  width: 120px;
+}
+
+.jibe-previous-button:hover {
+  color: white;
+}
