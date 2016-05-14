@@ -9,8 +9,8 @@
 title: Jibe Style Base
 description: > # this means to ignore newlines until "baseurl:"
   Living, visual style guide for Jibe Products. Will be integrated over the remainder of 2016. Work in progress.
-baseurl: "/jibe-style-base" # the subpath of your site, e.g. /blog
-url: "http://jibeinc.github.io/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://jibeinc.github.io" # the base hostname & protocol for your site
 twitter_username: jibe
 github_username:  jibeinc
 
