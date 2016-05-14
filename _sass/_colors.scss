@@ -1,0 +1,62 @@
+$dodger-blue: #1c7df2;
+$big-stone: #142338;
+$alabaster-white: #f9f9f9;
+$cod-gray: #555759;
+$abbey-gray: #555759;
+
+.dodger-blue {
+  background-color: $dodger-blue;
+  color: $alabaster-white !important;
+  padding: 10px 25px;
+}
+
+.dodger-blue:hover {
+  background-color: lighten($dodger-blue, 10%);
+  text-decoration: none;
+}
+
+.big-stone {
+  background-color: $big-stone;
+  color: $alabaster-white;
+  width: 100%;
+  height: 200px;
+  padding: 55px;
+}
+
+form {
+  input {
+    padding: 10px 25px;
+    border: none;
+  }
+}
+
+.alabaster-white {
+  background-color: $alabaster-white;
+  color: $abbey-gray;
+  width: 100%;
+  height: 200px;
+  padding: 25px;
+}
+
+.cod-gray {
+  background-color: $cod-gray;
+  color: $alabaster-white;
+  width: 100%;
+  height: 50px;
+}
+
+.navigation {
+  list-style: none;
+  li {
+    float: left;
+    position: relative;
+    display: block;
+    width: 20%;
+    a {
+      position: relative;
+      display: inline-block;
+      padding: 10px 10px;
+      color: $alabaster-white;
+    }
+  }
+}
