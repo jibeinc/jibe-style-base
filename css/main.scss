@@ -28,6 +28,12 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+// Jibe Colors
+$dodger-blue: #1c7df2;
+$big-stone: #142338;
+$alabaster-white: #f9f9f9;
+$cod-gray: #555759;
+$abbey-gray: #555759;
 
 
 // Use media queries like this:
@@ -51,7 +57,9 @@ $on-laptop:        800px;
 @import
         "base",
         "layout",
-        "syntax-highlighting"
+        "syntax-highlighting",
+        "colors",
+        "home"
 ;
 
 @import "grid";

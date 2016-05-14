@@ -2,8 +2,8 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
+    border-top: 5px solid $dodger-blue;
+    border-bottom: 1px solid $alabaster-white;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -21,6 +21,11 @@
     &,
     &:visited {
         color: $grey-color-dark;
+    }
+
+    img {
+      width: 20%;
+      padding: 15px;
     }
 }
 
