@@ -31,40 +31,61 @@ permalink: /buttons/
 
 ### <u>Primary Buttons</u>
 
-<button type="button" class="btn jibe-default-button">Default</button>
-<button type="button" class="btn jibe-active-button">Active</button>
-<button type="button" class="btn jibe-hover-button">Hover</button>
+<button type="button" class="btn jibe-buttons jibe-primary-default-button">Default</button>
+<button type="button" class="btn jibe-buttons jibe-primary-active-button">Active</button>
+<button type="button" class="btn jibe-buttons jibe-primary-hover-button">Hover</button>
 
 {% highlight html %}
-<button type="button" class="btn jibe-default-button">Default</button>
-<button type="button" class="btn jibe-active-button">Active</button>
-<button type="button" class="btn jibe-hover-button">Hover</button>
-.jibe-default-button {
-  background-color: #478fcc;
-  border-color: #478fcc;
-  color: white;
-}
+<button type="button" class="btn jibe-buttons jibe-primary-default-button">Default</button>
+<button type="button" class="btn jibe-buttons jibe-primary-active-button">Active</button>
+<button type="button" class="btn jibe-buttons jibe-primary-hover-button">Hover</button>
+{% endhighlight %}
 
-.jibe-default-button:hover {
-  color: white;
-}
+### <u>Secondary Buttons</u>
 
-.jibe-active-button {
-  background-color: #2b79ab;
-  border-color: #2b79ab;
-  color: white;
-}
+<button type="button" class="btn jibe-buttons jibe-secondary-default-button">Default</button>
+<button type="button" class="btn jibe-buttons jibe-secondary-active-button">Active</button>
+<button type="button" class="btn jibe-buttons jibe-secondary-hover-button">Hover</button>
 
-.jibe-active-button:hover {
-  color: white;
-}
+{% highlight html %}
+<button type="button" class="btn jibe-buttons jibe-secondary-default-button">Default</button>
+<button type="button" class="btn jibe-buttons jibe-secondary-active-button">Active</button>
+<button type="button" class="btn jibe-buttons jibe-secondary-hover-button">Hover</button>
+{% endhighlight %}
 
-.jibe-hover-button {
-  background-color: #419cd7;
-  border-color: #419cd7;
-  color: white;
-}
-.jibe-hover-button:hover {
-  color: white;
-}
+### <u>Focus Buttons</u>
+
+<button type="button" class="btn jibe-buttons jibe-primary-default-button">Default</button>
+<button type="button" class="btn jibe-buttons jibe-primary-active-button">Active</button>
+<button type="button" class="btn jibe-buttons jibe-primary-hover-button">Hover</button>
+
+{% highlight html %}
+<button type="button" class="btn jibe-buttons jibe-primary-default-button">Default</button>
+<button type="button" class="btn jibe-buttons jibe-primary-active-button">Active</button>
+<button type="button" class="btn jibe-buttons jibe-primary-hover-button">Hover</button>
+{% endhighlight %}
+
+### <u>Disable Buttons</u>
+
+<button type="button" class="btn jibe-buttons jibe-disable-button">Default</button>
+
+{% highlight html %}
+<button type="button" class="btn jibe-buttons jibe-disable-button">Default</button>
+{% endhighlight %}
+
+### <u>Next Buttons</u>
+
+<button type="button" class="btn jibe-buttons jibe-next-button">Next</button>
+
+{% highlight html %}
+<button type="button" class="btn jibe-buttons jibe-next-button">Next</button>
+{% endhighlight %}
+
+
+### <u>Previous Buttons</u>
+
+<button type="button" class="btn jibe-buttons jibe-previous-button">Previous</button>
+
+{% highlight html %}
+<button type="button" class="btn jibe-buttons jibe-previous-button">Prevous</button>
 {% endhighlight %}
