@@ -6,16 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Jibe Style Guides
+email: www.jibe.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Jibe Style Guides represent the base styles for all Jibe products.
+  Jibe strives to maintain a clean, modern style in all of it's products to
+  emphasize great user experience.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: Jibe
+github_username:  jibeinc
 
 # Build settings
 markdown: kramdown
