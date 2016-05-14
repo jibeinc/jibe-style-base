@@ -99,13 +99,16 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    padding: $spacing-unit / 4;
 }
 
 .footer-heading {
     font-size: 18px;
     text-align: center;
-    margin-bottom: $spacing-unit / 2;
+
+    p {
+     margin-bottom: 5px;
+    }
 }
 
 .contact-list,
