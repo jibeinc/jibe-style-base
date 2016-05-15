@@ -47,6 +47,7 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "../bower_components/bourbon/app/assets/stylesheets/_bourbon.scss";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "../bower_components/neat/app/assets/stylesheets/_neat.scss";
 @import
         "base",
@@ -57,5 +58,4 @@ $on-laptop:        800px;
 ;
 
 @import "grid";
-@import "../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 @import "buttons";
