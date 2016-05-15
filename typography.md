@@ -4,59 +4,136 @@ title: Typography
 permalink: /typography/
 ---
 
-Jibe websites have common typographic needs: clear and consistent headings, highly legible body paragraphs, clear labels, and easy-to-use input fields.
-
+<p>
+  Jibe websites have common typographic needs: clear and consistent headings, highly legible body paragraphs, clear labels, and easy-to-use input fields.
+</p>
 
 ### <u>Typeface</u>
-
-Lato
+<h3 class="jibe-h3">Lato</h3>
 
 <p>Lato is a sans serif typeface family started in the summer of 2010 by Warsaw-based designer Łukasz Dziedzic (“Lato” means “Summer” in Polish). In December 2010 the Lato family was published under the Open Font License by his foundry tyPoland, with support from Google.</p>
 
-<img src="../assets/Lato-Font.png" alt="Lat-Img" />
+<p>
+  <b>Examples:</b>
+</p>
+
+<div class="row">
+  <div class="col-md-6">
+    <p class="weight1">
+        Font Weight 100<br>
+        "Transform your career site into a recruiting engine"
+    </p>
+  </div>
+  <div class="col-md-6">
+    <p class="weight2">
+        Font Weight 100 Italic<br>
+        "Transform your career site into a recruiting engine"
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <p class="weight3">
+        Font Weight 300<br>
+        "Transform your career site into a recruiting engine"
+    </p>
+  </div>
+  <div class="col-md-6">
+    <p class="weight4">
+        Font Weight 300 Italic<br>
+        "Transform your career site into a recruiting engine"
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <p class="weight5">
+        Font Weight Normal 400<br>
+        "Transform your career site into a recruiting engine"
+    </p>
+  </div>
+  <div class="col-md-6">
+    <p class="weight6">
+        Font Weight Normal 400 Italic<br>
+        "Transform your career site into a recruiting engine"
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <p class="weight7">
+        Font Weight 700<br>
+        "Transform your career site into a recruiting engine"
+    </p>
+  </div>
+  <div class="col-md-6">
+    <p class="weight8">
+        Font Weight Bold 700 Italic<br>
+        "Transform your career site into a recruiting engine"
+    </p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+    <p class="weight9">
+        Font Weight Ultra-Bold 800<br>
+        "Transform your career site into a recruiting engine"
+    </p>
+  </div>
+  <div class="col-md-6">
+    <p class="weight10">
+        Font Weight Bold Ultra-Bold 800 Italic<br>
+        "Transform your career site into a recruiting engine"
+    </p>
+  </div>
+</div>
 
 ### <u>Headings</u>
-<h1 style="font-size: 3.2em;">H1</h1>
+<h1 class="jibe-h1">H1</h1>
 
-<pre style= "background-color: #f5f5f5;">
+{% highlight html %}
   font-size: 3.2em;
   font-weight: 700;
-</pre>
+{% endhighlight %}
 
-<h2 style="font-size: 2em;">H2</h2>
+<h2 class="jibe-h2">H2</h2>
 
-<pre style= "background-color: #f5f5f5;">
+{% highlight html %}
   font-size: 2em;
   font-weight: 700;
-</pre>
+{% endhighlight %}
 
-<h3 style="font-size: 1.5em;">H3</h3>
+<h3 class="jibe-h3">H3</h3>
 
-<pre style= "background-color: #f5f5f5;">
+{% highlight html %}
   font-size: 1.5em;
   font-weight: 700;
-</pre>
+{% endhighlight %}
 
-<h4 style="font-size: 1.125em;">H4</h4>
+<h4 class="jibe-h4">H4</h4>
 
-<pre style= "background-color: #f5f5f5;">
+{% highlight html %}
   font-size: 1.125em;
   font-weight: 500;
-</pre>
+{% endhighlight %}
 
-<h5 style="font-size: 1.125em;">H5</h5>
+<h5 class="jibe-h5">H5</h5>
 
-<pre style= "background-color: #f5f5f5;">
+{% highlight html %}
   font-size: 1.714em;
   font-weight: 700;
-</pre>
+{% endhighlight %}
 
-<h6 style="font-size: .75em;">H6</h6>
+<h6 class="jibe-h6">H6</h6>
 
-<pre style= "background-color: #f5f5f5;">
+{% highlight html %}
   font-size: .75em;
   font-weight: 500;
-</pre>
+{% endhighlight %}
 
 ### <u>Body Text</u>
 
@@ -64,11 +141,11 @@ Lato
 
   <p style="font-size: 16px; font-weight: 300; line-height: normal;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
 
-<pre style= "background-color: #f5f5f5;">
+{% highlight html %}
   font-size: 16px;
   font-weight: 300;
   line-height: normal;
-</pre>
+{% endhighlight %}
 
 ### <u>Links</u>
 
@@ -76,7 +153,7 @@ Links lead users to a different page or further information.
 
 <b>Navigation Links</b>
 
-<pre style= "background-color: #f5f5f5;">
+{% highlight html %}
   font-size: 1.14285714em;
   text-decoration: none;
 
@@ -87,7 +164,7 @@ Links lead users to a different page or further information.
   :active {
     outline: 0;
   }
-</pre>
+{% endhighlight %}
 
 ### <u>List Items</u>
 
