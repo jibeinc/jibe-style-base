@@ -7,7 +7,7 @@ var sourcemaps = require('gulp-sourcemaps');
 // Task for building blog when something changed:
 // gulp.task('build', shell.task(['bundle exec jekyll build --watch']));
 // Or if you don't use bundle:
-gulp.task('build', shell.task(['jekyll build']));
+gulp.task('build', shell.task(['jekyll build --watch']));
 
 // Task for serving blog with Browsersync
 gulp.task('serve', function () {
@@ -28,4 +28,4 @@ gulp.task('sass:watch', function () {
   gulp.watch('./_sass/*.scss', ['sass']);
 });
 
-gulp.task('default', ['build', 'sass', 'serve', 'sass:watch']);
+gulp.task('default', ['build', 'sass', 'serve']);
